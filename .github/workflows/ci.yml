@@ -22,11 +22,11 @@ jobs:
          project_id: 'project3-439718' # update with your project ID
          workload_identity_provider: 'projects/475821653860/locations/global/workloadIdentityPools/github/providers/my-repo' # update with your Workload Identity Pool
 
-      configure/login with docker
+      #configure/login with docker
      - name: gcloud Configure Docker
        run: gcloud auth configure-docker us-central1-docker.pkg.dev
 
-      setup docker buildx
+      #setup docker buildx
      - name: Setup docker buildx
        uses: docker/setup-buildx-action@v3
        with:

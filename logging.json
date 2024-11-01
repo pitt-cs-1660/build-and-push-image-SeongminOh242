@@ -91,8 +91,8 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
-        "project_id": "project3-439718",
         "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "project3-439718",
         "service": "artifactregistry.googleapis.com"
       }
     },
@@ -142,8 +142,8 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
-        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
         "project_id": "project3-439718",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
         "service": "artifactregistry.googleapis.com"
       }
     },
@@ -193,9 +193,9 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
+        "project_id": "project3-439718",
         "service": "artifactregistry.googleapis.com",
-        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
-        "project_id": "project3-439718"
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
       }
     },
     "timestamp": "2024-10-31T23:25:20.639301621Z",
@@ -244,9 +244,9 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
+        "project_id": "project3-439718",
         "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
-        "service": "artifactregistry.googleapis.com",
-        "project_id": "project3-439718"
+        "service": "artifactregistry.googleapis.com"
       }
     },
     "timestamp": "2024-10-31T23:26:17.303126621Z",
@@ -294,9 +294,9 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
-        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "project3-439718",
         "service": "artifactregistry.googleapis.com",
-        "project_id": "project3-439718"
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
       }
     },
     "timestamp": "2024-10-31T23:27:53.153860377Z",
@@ -548,9 +548,9 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
-        "service": "artifactregistry.googleapis.com",
         "project_id": "project3-439718",
-        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
       }
     },
     "timestamp": "2024-10-31T23:32:52.244400597Z",
@@ -598,9 +598,9 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
-        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
         "project_id": "project3-439718",
-        "service": "artifactregistry.googleapis.com"
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
       }
     },
     "timestamp": "2024-10-31T23:33:03.745787980Z",
@@ -649,9 +649,9 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
-        "project_id": "project3-439718",
         "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
-        "service": "artifactregistry.googleapis.com"
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "project3-439718"
       }
     },
     "timestamp": "2024-10-31T23:49:45.536502408Z",
@@ -700,9 +700,9 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
-        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
         "project_id": "project3-439718",
-        "service": "artifactregistry.googleapis.com"
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
       }
     },
     "timestamp": "2024-10-31T23:51:50.028670185Z",
@@ -751,9 +751,9 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
-        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
         "project_id": "project3-439718",
-        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+        "service": "artifactregistry.googleapis.com"
       }
     },
     "timestamp": "2024-10-31T23:55:33.419455491Z",
@@ -802,8 +802,8 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
-        "project_id": "project3-439718",
         "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "project3-439718",
         "service": "artifactregistry.googleapis.com"
       }
     },
@@ -853,9 +853,9 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
-        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
         "project_id": "project3-439718",
-        "service": "artifactregistry.googleapis.com"
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
       }
     },
     "timestamp": "2024-10-31T23:56:27.638437065Z",
@@ -903,9 +903,9 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
-        "project_id": "project3-439718",
         "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
-        "service": "artifactregistry.googleapis.com"
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "project3-439718"
       }
     },
     "timestamp": "2024-10-31T23:56:36.506422135Z",
@@ -953,9 +953,9 @@
     "resource": {
       "type": "audited_resource",
       "labels": {
-        "service": "artifactregistry.googleapis.com",
         "project_id": "project3-439718",
-        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
       }
     },
     "timestamp": "2024-10-31T23:59:35.777017151Z",

@@ -1,0 +1,966 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The member projects/475821653860/locations/global/workloadIdentityPools/github/providers/SeongminOh242/build-and-push-image-SEongminOh242 is of an unknown type. Please set a valid type prefix for the member."
+      },
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/872ca5ffef29421181244f40d5e5379e environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:22:27.280445495Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "1cagla5d428b",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "project3-439718",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-31T23:22:27.264709794Z",
+    "severity": "ERROR",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:22:28.289131253Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The member principalSet://iam.gooleapis.com/projects/475821653860/locations/global/workloadIdentityPools/github/providers/SeongminOh242/build-and-push-image-SEongminOh242 is of an unknown type. Please set a valid type prefix for the member."
+      },
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/0d7f0389a70e48c39e0ab744096bab42 environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:23:16.980961013Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building"
+      }
+    },
+    "insertId": "1dfm8rmd27zv",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "project3-439718",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-31T23:23:16.971162830Z",
+    "severity": "ERROR",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:23:17.034221177Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The member principalSet://oed8205@gmail.com/projects/475821653860/locations/global/workloadIdentityPools/github/providers/SeongminOh242/build-and-push-image-SEongminOh242 is of an unknown type. Please set a valid type prefix for the member."
+      },
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/76dc1936797c422f9541cbde788e29da environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:23:31.117122979Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building"
+      }
+    },
+    "insertId": "1i5babxd2a3h",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "project3-439718",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-31T23:23:31.107900021Z",
+    "severity": "ERROR",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:23:31.327145691Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The member principalSet://oed8205@gmail.com/projects/475821653860/locations/global/workloadIdentityPools/github/providers/SeongminOh242/build-and-push-image-SEongminOh242 is of an unknown type. Please set a valid type prefix for the member."
+      },
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/6d8b709409af49f5bc88875c88f97da3 environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:25:20.653691836Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building"
+      }
+    },
+    "insertId": "usyv4ac4ql",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "project3-439718",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-31T23:25:20.639301621Z",
+    "severity": "ERROR",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:25:21.140467249Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid principalSet member (principalSet://iam.googleapis.com/projects/475821653860/locations/global/workloadIdentityPools/github/providers/SeongminOh242/build-and-push-image-SEongminOh242)."
+      },
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/2d264aed67524e6ba640e48648eca33b environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:26:17.311898179Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building"
+      }
+    },
+    "insertId": "whsk8xcwwk",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "project3-439718",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-31T23:26:17.303126621Z",
+    "severity": "ERROR",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:26:17.593630236Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/6f44e80918124b139806e3ce7be27c30 environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:27:53.169782286Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "xbg0xed2nct",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "project3-439718",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-31T23:27:53.153860377Z",
+    "severity": "NOTICE",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:27:53.764321650Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Policy members must be of the form \"<type>:<value>\"."
+      },
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.projects.add-iam-policy-binding invocation-id/f2462ab3bc7b4492a21ac6cbea2ae3a1 environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/project3-439718",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718",
+      "request": {
+        "policy": {
+          "etag": "BwYlzAGU5aQ=",
+          "bindings": [
+            {
+              "role": "roles/artifactregistry.serviceAgent",
+              "members": [
+                "serviceAccount:service-475821653860@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+              ]
+            },
+            {
+              "members": [
+                "serviceAccount:github-ci@project3-439718.iam.gserviceaccount.com",
+                "user:oed8205@gmail.com",
+                "oed8205@gmail.com"
+              ],
+              "role": "roles/artifactregistry.writer"
+            },
+            {
+              "members": [
+                "user:oed8205@gmail.com"
+              ],
+              "role": "roles/iam.workloadIdentityPoolAdmin"
+            },
+            {
+              "members": [
+                "user:oed8205@gmail.com"
+              ],
+              "role": "roles/owner"
+            }
+          ]
+        },
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "project3-439718"
+      }
+    },
+    "insertId": "q4lyq3e127wg",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "project3-439718"
+      }
+    },
+    "timestamp": "2024-10-31T23:29:30.611256Z",
+    "severity": "ERROR",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:29:31.440920843Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.projects.add-iam-policy-binding invocation-id/894a65e84a3a46a7aa0baee5ac8b73de environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/project3-439718",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/project3-439718",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/project3-439718",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {}
+      },
+      "request": {
+        "policy": {
+          "etag": "BwYlzAGU5aQ=",
+          "bindings": [
+            {
+              "role": "roles/artifactregistry.serviceAgent",
+              "members": [
+                "serviceAccount:service-475821653860@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+              ]
+            },
+            {
+              "members": [
+                "serviceAccount:github-ci@project3-439718.iam.gserviceaccount.com",
+                "user:oed8205@gmail.com"
+              ],
+              "role": "roles/artifactregistry.writer"
+            },
+            {
+              "members": [
+                "user:oed8205@gmail.com"
+              ],
+              "role": "roles/iam.workloadIdentityPoolAdmin"
+            },
+            {
+              "members": [
+                "user:oed8205@gmail.com"
+              ],
+              "role": "roles/owner"
+            }
+          ]
+        },
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "project3-439718"
+      },
+      "response": {
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-475821653860@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:github-ci@project3-439718.iam.gserviceaccount.com",
+              "user:oed8205@gmail.com"
+            ],
+            "role": "roles/artifactregistry.writer"
+          },
+          {
+            "members": [
+              "user:oed8205@gmail.com"
+            ],
+            "role": "roles/iam.workloadIdentityPoolAdmin"
+          },
+          {
+            "role": "roles/owner",
+            "members": [
+              "user:oed8205@gmail.com"
+            ]
+          }
+        ],
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "etag": "BwYlzjKZnoc="
+      }
+    },
+    "insertId": "-95i4rse12cn8",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "project3-439718"
+      }
+    },
+    "timestamp": "2024-10-31T23:30:02.011431Z",
+    "severity": "NOTICE",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:30:03.589576031Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/c41029b2252947f2b5daadcee0e94b75 environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:32:52.254535827Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1cagla5d42i6",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "project3-439718",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-31T23:32:52.244400597Z",
+    "severity": "NOTICE",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:32:53.354642986Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/78e014fddc72470d81d726e28bde3d8f environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:33:03.756875788Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1xnbtcsd27jh",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "project3-439718",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-31T23:33:03.745787980Z",
+    "severity": "NOTICE",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:33:04.488408518Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid principalSet member (principalSet://iam.googleapis.com/projects/475821653860/locations/global/workloadIdentityPools/github/providers/my-repo/attribute.repository/SeongminOh242/build-and-push-image)."
+      },
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/18153c6d5dc44a4da2265fe9b9ef21d2 environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:49:45.546581247Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "1ejjm7jd1fei",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "project3-439718"
+      }
+    },
+    "timestamp": "2024-10-31T23:49:45.536502408Z",
+    "severity": "ERROR",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:49:46.338590149Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid principalSet member (principalSet://iam.googleapis.com/projects/475821653860/locations/global/workloadIdentityPools/github/providers/my-repo/attribute.repository/SeongminOh242/build-and-push-image)."
+      },
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/3936bb5e85e84b38a9744d02d466a83d environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:51:50.040013373Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "17bao74d2mcs",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "project3-439718",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-31T23:51:50.028670185Z",
+    "severity": "ERROR",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:51:51.051598585Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "The member principalSet://iam.googleapis.com/projects/475821653860/locations/global/workloadIdentityPools/github//attribute.repository/SeongminOh242/build-and-push-image is of an unknown type. Please set a valid type prefix for the member."
+      },
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/c67dde7d2e524ef5bd30f734237baaa7 environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:55:33.428477215Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "1lhtk4xd2tfm",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "project3-439718",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-31T23:55:33.419455491Z",
+    "severity": "ERROR",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:55:33.703195432Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Role roles/artifactregistery.writer is not supported for this resource."
+      },
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/80843f5fcb844f2884dc07261a0fe091 environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:55:49.712731193Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "1ru3bfad2b3k",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "project3-439718",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-31T23:55:49.698849815Z",
+    "severity": "ERROR",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:55:50.452012621Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Role roles/artifactregistery.writer is not supported for this resource."
+      },
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/a9fe723bc312485995c225d2ee1c7792 environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:56:27.645574331Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      }
+    },
+    "insertId": "13qgxzfc3hk",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "project3-439718",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-31T23:56:27.638437065Z",
+    "severity": "ERROR",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:56:28.072533591Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/5124962dba7448268e71ccf74db3d38d environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:56:36.512951335Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "h85zbbc3q2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "project3-439718"
+      }
+    },
+    "timestamp": "2024-10-31T23:56:36.506422135Z",
+    "severity": "NOTICE",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:56:37.607456522Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "oed8205@gmail.com",
+        "principalSubject": "user:oed8205@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2601:547:701:550:50b3:22fb:59c:a51c",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/f6ddf18042474614bf7c24f6ca0d1db3 environment/None environment-version/None client-os/MACOSX client-os-ver/24.0.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.7 term/xterm-256color (Macintosh; Intel Mac OS X 24.0.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-31T23:59:35.783736940Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/project3-439718/locations/us-central1/repositories/building",
+      "request": {
+        "resource": "projects/project3-439718/locations/us-central1/repositories/building",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1lr3vu2d2u01",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "project3-439718",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-31T23:59:35.777017151Z",
+    "severity": "NOTICE",
+    "logName": "projects/project3-439718/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-31T23:59:36.029437884Z"
+  }
+]
